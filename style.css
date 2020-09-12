@@ -1,0 +1,459 @@
+/* ****************** HTML ******************** */
+@font-face {
+ font-family: 'ralewayblack';
+src: url("font/raleway-black-webfont.woff2") format('woff2'),
+url("font/raleway-black-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewayblack_italic';
+src: url("font/raleway-blackitalic-webfont.woff2") format('woff2'),
+url("font/'raleway-blackitalic-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewaybold';
+src: url("font/raleway-bold-webfont.woff2") format('woff2'),
+url("font/'raleway-bold-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewaybold_italic';
+src: url("font/raleway-bolditalic-webfont.woff2") format('woff2'),
+url("font/'raleway-bolditalic-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewayextrabold';
+src: url("font/raleway-extrabold-webfont.woff2") format('woff2'),
+url("font/'raleway-extrabold-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewayextrabold_italic';
+src: url("font/raleway-extrabolditalic-webfont.woff2") format('woff2'),
+url("font/'raleway-extrabolditalic-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewayextralight';
+src: url("font/raleway-extralight-webfont.woff2") format('woff2'),
+url("font/'raleway-extralight-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewayextralight_italic';
+src: url("font/raleway-extralightitalic-webfont.woff2") format('woff2'),
+url("font/'raleway-extralightitalic-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewayitalic';
+src: url("font/raleway-italic-webfont.woff2") format('woff2'),
+url("font/'raleway-italic-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewaylight';
+src: url("font/raleway-light-webfont.woff2") format('woff2'),
+url("font/'raleway-light-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewaylight_italic';
+src: url("font/raleway-lightitalic-webfont.woff2") format('woff2'),
+url("font/'raleway-lightitalic-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'ralewaymedium';
+src: url("font/raleway-medium-webfont.woff2") format('woff2'),
+url("font/'raleway-medium-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+html{font-family:"ralewaymedium";}
+
+body{
+margin: auto;
+width: 80%;
+padding: 20px;}
+
+span{font-weight: bold;}
+
+li{list-style-type: none;}
+
+h1{ 
+font-family: "ralewayblack";
+padding-top: -1.5px;}
+
+h2{font-family: "ralewayextrabold";}
+
+.epleine{color: #0065FC;}
+
+.evide{color: rgb(217, 217, 217);}
+
+.info{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+font-size: 1.2em;
+color: #0065FC;
+padding-right: 1px;
+width: 20px;
+height: 20px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+border: 1px #0703fc21 solid;}
+
+
+/* ****************** HEADER ******************** */
+header{
+display: flex;
+justify-content: space-between;}
+
+header ul{display: flex;}
+
+header li{
+text-align: center;
+margin: 30px;}
+
+a{
+color: black;
+text-decoration: none;}
+
+header a{text-decoration: none;}
+
+.hebergements a{
+text-decoration: overline;
+/* demander info pour overline avec une marge plus haute */
+color: #0065FC;}
+
+.activitesamarseille a{
+color: black;
+justify-content: space-around;}
+
+.inscription a{
+color: #0065FC;
+font-weight: bolder;}
+
+
+/* ****************** SECTION N°1 ******************** */
+.greybackground{background-color: #F2F2F2;}
+
+.centreville{
+line-height: 0em;
+margin-bottom: 30px;}
+
+.map{
+border: 10px solid #F2F2F2;
+border-radius: 10px 0 0 10px;
+background-color: #F2F2F2;}
+
+.rechercher{
+font-weight: bolder;
+color: black;
+text-indent: 3%;
+border: 0.5px solid #F2F2F2;
+border-radius: 0 0 0 0;
+height: 38px;
+width: 250px;}
+
+.bouton{
+border: #F2F2F2;
+color: white;
+border-radius: 0 10px 10px 0;
+height: 40px;
+width: 90px;
+background-color: #0065FC;
+border: none;}
+
+.logos{
+color: #0065FC;
+border: 10px solid #DEEBFF;;
+border-radius: 20px;
+width: 300px;
+height: 10px;
+margin-left: 20px;
+background-color: #DEEBFF;}
+
+.economique{
+font-weight: bolder;
+width: 170px;
+height: 35px;
+display: inline-flex;
+text-indent: 10%;
+justify-content: space-around;
+align-items: center;
+margin-left: -45px;
+margin-right: 10px;
+border-radius: 20px;
+border: rgb(217, 217, 217) 1.5px solid;}
+
+.economique:hover{
+color: hsl(0, 100%, 52%);
+cursor: pointer;
+transition: 0.3s ease-in-out;}
+
+.familial{
+font-weight: bolder;
+width: 200px;
+height: 40px;
+display: inline-flex;
+justify-content: space-around;
+align-items: center;
+margin-left: -37px;
+margin-right: 20px;
+border-radius: 25px;
+border: 1.5px rgb(217, 217, 217) solid;}
+
+.familial:hover{
+color: hsl(0, 100%, 52%);
+cursor: pointer;
+transition: 0.3s ease-in-out;}
+
+.romantique{
+font-weight: bolder;
+width: 150px;
+height: 40px;
+display: inline-flex;
+text-indent: 10%;
+justify-content: space-around;
+align-items: center;
+margin-left: -40px;
+margin-right: 20px;
+border-radius: 25px;
+border: 1.5px rgb(217, 217, 217) solid;}
+
+.romantique:hover{
+color: hsl(0, 100%, 52%);
+cursor: pointer;
+transition: 0.3s ease-in-out;}
+
+.animaux{
+font-weight: bolder;
+display: inline-flex;
+justify-content: space-around;
+align-items: center;
+white-space: pre;
+width: 210px;
+margin-left: -41px;
+margin-right: 20px;
+height: 40px;
+text-indent: 10%;
+border-radius: 20px;
+border: 1.2px rgb(217, 217, 217) solid;}
+
+.animaux:hover{
+color: hsl(0, 100%, 52%);
+cursor: pointer;
+transition: 0.3s ease-in-out;}
+
+
+/* ****************** SECTION N°2 ******************** */
+.hebergement-container{
+display: grid;
+justify-content: space-around;
+justify-content: center;
+grid-template-columns: 30% 30% 35%;
+column-gap: 10px;}
+
+figcaption{font-weight: bolder;}
+
+.middlerow img{
+border-radius: 10%;
+height: 7em;
+width: 13em;}
+
+.middlerow{
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 30px;}
+
+.cannebiere{
+line-height: 1.5em;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+margin-right: auto;
+box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
+border-radius: 10%;}
+
+.port{
+line-height: 1.5em;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.mouette{
+line-height: 1.5em;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.mer{
+line-height: 1.5em;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.panier{
+line-height: 1.5em;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.amina{
+line-height: 1.5em;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+
+/* ****************** ASIDE ******************** */
+.popularite figcaption{
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;}
+    
+.soleil{
+line-height: 1.5em;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.coeur{
+line-height: 1.5em;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.blanc{
+line-height: 1.5em;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+
+/* ****************** SECTION N°3 ******************** */
+.photosactivites{
+margin-left: -60px;
+display: flex;
+gap: 15px;
+grid-template-columns: 280px 280px 280px;}
+
+.vieux{
+grid-column-start: 1;
+padding: 20px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 4px 10px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.fort{
+grid-column-start: 2;
+grid-column-end: 2;
+padding: 20px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 4px 10px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.iles{
+grid-column-start: 2;
+grid-column-end: 2;
+padding: 20px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 4px 10px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.parc{
+grid-column-start: 3;
+grid-row-end: 2;
+padding: 20px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 4px 10px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.notredame{
+grid-column-start: 4;
+grid-row-end: 2;
+padding: 20px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 4px 10px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.longchamp{
+grid-column-start: 4;
+grid-column-end: 4;
+padding: 20px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 4px 10px rgb(224, 224, 224);
+margin-right: auto;
+border-radius: 10%;}
+
+.photosactivites img{
+margin-top: -30px;
+border-radius: 10%;
+height: 8em;
+width: 15em;}
+
+.photosactivites figcaption{
+line-height: 1.5em;
+text-indent: 1.3em;
+margin-top: 30px;}
+
+.popu_greybackground{background-color: #F2F2F2;}
+
+
+/* ****************** FOOTER ******************** */
+.greybackgroundfooter{
+background-color: #F2F2F2;
+width: 120%;}
+
+.remarques{
+display: grid;
+grid-template-columns: 30% 30% 40%;
+justify-content: space-around;}
+
+.apropos{line-height: 2em;}
+
+.noshebergements{line-height: 2em;}
+
+.assistance{line-height: 2em;}
+
+
+
+
+

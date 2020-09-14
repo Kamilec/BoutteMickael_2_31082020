@@ -85,11 +85,6 @@ font-style: normal;}
 
 html{font-family:"ralewaymedium";}
 
-body{
-margin: auto;
-width: 80%;
-padding: 20px;}
-
 span{font-weight: bold;}
 
 li{list-style-type: none;}
@@ -151,8 +146,6 @@ font-weight: bolder;}
 
 
 /* ****************** SECTION N°1 ******************** */
-.greybackground{background-color: #F2F2F2;}
-
 .centreville{
 line-height: 0em;
 margin-bottom: 30px;}
@@ -177,40 +170,46 @@ color: white;
 border-radius: 0 10px 10px 0;
 height: 40px;
 width: 90px;
-background-color: #0065FC;
-border: none;}
+cursor: pointer;
+background-color: #0065FC;}
 
 .logos{
 color: #0065FC;
-border: 10px solid #DEEBFF;;
+border: 10px solid #DEEBFF;
 border-radius: 20px;
 width: 300px;
 height: 10px;
 margin-left: 20px;
+transition: 0.3s ease-in-out;
+transform: scale(1.15);
 background-color: #DEEBFF;}
 
 .economique{
+white-space: pre;
 font-weight: bolder;
-width: 170px;
-height: 35px;
+width: 210px;
+height: 40px;
 display: inline-flex;
 text-indent: 10%;
 justify-content: space-around;
 align-items: center;
-margin-left: -45px;
+margin-left: -41px;
 margin-right: 10px;
 border-radius: 20px;
 border: rgb(217, 217, 217) 1.5px solid;}
 
 .economique:hover{
-color: hsl(0, 100%, 52%);
+color: red;
 cursor: pointer;
+transform: scale(1.15);
 transition: 0.3s ease-in-out;}
 
+/*
 .familial{
 font-weight: bolder;
-width: 200px;
+width: 130px;
 height: 40px;
+text-indent: 20%;
 display: inline-flex;
 justify-content: space-around;
 align-items: center;
@@ -220,7 +219,7 @@ border-radius: 25px;
 border: 1.5px rgb(217, 217, 217) solid;}
 
 .familial:hover{
-color: hsl(0, 100%, 52%);
+color: red;
 cursor: pointer;
 transition: 0.3s ease-in-out;}
 
@@ -229,7 +228,7 @@ font-weight: bolder;
 width: 150px;
 height: 40px;
 display: inline-flex;
-text-indent: 10%;
+text-indent: 20%;
 justify-content: space-around;
 align-items: center;
 margin-left: -40px;
@@ -238,7 +237,7 @@ border-radius: 25px;
 border: 1.5px rgb(217, 217, 217) solid;}
 
 .romantique:hover{
-color: hsl(0, 100%, 52%);
+color: red;
 cursor: pointer;
 transition: 0.3s ease-in-out;}
 
@@ -259,16 +258,19 @@ border: 1.2px rgb(217, 217, 217) solid;}
 .animaux:hover{
 color: hsl(0, 100%, 52%);
 cursor: pointer;
-transition: 0.3s ease-in-out;}
+transition: 0.3s ease-in-out;}*/
 
 
 /* ****************** SECTION N°2 ******************** */
+.greybackground{
+height: 650px;
+column-gap: 10% 10% 10%;
+border-radius: 2%;
+background-color: #F2F2F2;}
+
 .hebergement-container{
 display: grid;
-justify-content: space-around;
-justify-content: center;
-grid-template-columns: 30% 30% 35%;
-column-gap: 10px;}
+grid-template-columns: 33% 33% 33%;}
 
 figcaption{font-weight: bolder;}
 
@@ -278,15 +280,13 @@ height: 7em;
 width: 13em;}
 
 .middlerow{
-display: grid;
-grid-template-columns: auto auto auto;
-gap: 30px;}
+display: flex;
+gap: 40px;}
 
 .cannebiere{
-line-height: 1.5em;
 padding: 10px;
+line-height: 1.5em;
 background-color: rgb(255, 255, 255);
-margin-right: auto;
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
 border-radius: 10%;}
 
@@ -295,7 +295,6 @@ line-height: 1.5em;
 padding: 10px;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-margin-right: auto;
 border-radius: 10%;}
 
 .mouette{
@@ -303,7 +302,6 @@ line-height: 1.5em;
 padding: 10px;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-margin-right: auto;
 border-radius: 10%;}
 
 .mer{
@@ -311,7 +309,6 @@ line-height: 1.5em;
 padding: 10px;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-margin-right: auto;
 border-radius: 10%;}
 
 .panier{
@@ -319,24 +316,37 @@ line-height: 1.5em;
 padding: 10px;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-margin-right: auto;
 border-radius: 10%;}
 
 .amina{
-line-height: 1.5em;
 padding: 10px;
+line-height: 1.5em;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-margin-right: auto;
 border-radius: 10%;}
 
 
 /* ****************** ASIDE ******************** */
-.popularite figcaption{
-    width: 100%;
-    display: flex;
-    vertical-align: middle;
-    flex-direction: column;}
+.evolution{position: relative;
+right: -100px;}
+
+.popularite figure{display: flex;}
+
+.texteadroite{
+position: relative;
+top: -3px;
+right: -16px;}
+
+.popularite img{
+height: 7em;
+width: 8em;}
+
+.popu_greybackground{
+height: 650px;
+width: 400px;
+padding-bottom: auto;
+border-radius: 2%;
+background-color: #F2F2F2;}
     
 .soleil{
 line-height: 1.5em;
@@ -364,6 +374,15 @@ border-radius: 10%;}
 
 
 /* ****************** SECTION N°3 ******************** */
+.photosactivites img{
+margin-top: -30px;
+border-radius: 10%;}
+
+.photosactivites figcaption{
+line-height: 1.5em;
+text-indent: 1.3em;
+margin-top: 30px;}
+
 .photosactivites{
 margin-left: -60px;
 display: flex;
@@ -378,7 +397,13 @@ box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
 
+.vieux img{
+height: 450px;
+width: 350px;}
+
 .fort{
+position: relative;
+left: -30px;
 grid-column-start: 2;
 grid-column-end: 2;
 padding: 20px;
@@ -386,8 +411,15 @@ background-color: rgb(255, 255, 255);
 box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
+
+.fort img,.iles img{
+height: 10em;
+width: 20em;}
 
 .iles{
+position: relative;
+left: -450px;
+bottom: -290px;
 grid-column-start: 2;
 grid-column-end: 2;
 padding: 20px;
@@ -396,7 +428,13 @@ box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
 
+.parc img{
+height: 450px;
+width: 350px;}
+
 .parc{
+position: relative;
+left: -480px;
 grid-column-start: 3;
 grid-row-end: 2;
 padding: 20px;
@@ -405,16 +443,25 @@ box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
 
+.notredame img,.longchamp img{
+height: 10em;
+width: 20em;}
+
 .notredame{
+position: relative;
+left: -510px;
 grid-column-start: 4;
 grid-row-end: 2;
-padding: 20px;
+padding: 15px;
 background-color: rgb(255, 255, 255);
 box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
 
 .longchamp{
+bottom: -290px;
+position: relative;
+left: -930px;
 grid-column-start: 4;
 grid-column-end: 4;
 padding: 20px;
@@ -422,20 +469,6 @@ background-color: rgb(255, 255, 255);
 box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
-
-.photosactivites img{
-margin-top: -30px;
-border-radius: 10%;
-height: 8em;
-width: 15em;}
-
-.photosactivites figcaption{
-line-height: 1.5em;
-text-indent: 1.3em;
-margin-top: 30px;}
-
-.popu_greybackground{background-color: #F2F2F2;}
-
 
 /* ****************** FOOTER ******************** */
 .greybackgroundfooter{

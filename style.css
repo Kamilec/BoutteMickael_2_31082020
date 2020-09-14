@@ -400,24 +400,20 @@ border-radius: 5%;}
 
 /* ****************** SECTION N°3 ******************** */
 .photosactivites img{
-margin-top: -30px;
 border-radius: 10%;}
 
 .photosactivites figcaption{
 line-height: 1.5em;
 text-indent: 1.3em;
-margin-top: 30px;}
+margin-top: 3px;}
 
 .photosactivites{
 margin-left: -60px;
 display: flex;
-gap: 15px;
-grid-template-columns: 280px 280px 280px;}
+gap: 15px;}
 
 .vieux{
-grid-column-start: 1;
 padding: 20px;
-background-color: rgb(255, 255, 255);
 box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
@@ -428,11 +424,8 @@ width: 350px;}
 
 .fort{
 position: relative;
-left: -30px;
-grid-column-start: 2;
-grid-column-end: 2;
+left: -32px;
 padding: 20px;
-background-color: rgb(255, 255, 255);
 box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
@@ -445,10 +438,7 @@ width: 20em;}
 position: relative;
 left: -450px;
 bottom: -290px;
-grid-column-start: 2;
-grid-column-end: 2;
 padding: 20px;
-background-color: rgb(255, 255, 255);
 box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
@@ -460,10 +450,7 @@ width: 350px;}
 .parc{
 position: relative;
 left: -480px;
-grid-column-start: 3;
-grid-row-end: 2;
 padding: 20px;
-background-color: rgb(255, 255, 255);
 box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
@@ -475,10 +462,7 @@ width: 20em;}
 .notredame{
 position: relative;
 left: -510px;
-grid-column-start: 4;
-grid-row-end: 2;
 padding: 15px;
-background-color: rgb(255, 255, 255);
 box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
@@ -486,11 +470,8 @@ border-radius: 10%;}
 .longchamp{
 bottom: -290px;
 position: relative;
-left: -930px;
-grid-column-start: 4;
-grid-column-end: 4;
+left: -915px;
 padding: 20px;
-background-color: rgb(255, 255, 255);
 box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}

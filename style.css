@@ -131,9 +131,14 @@ text-decoration: none;}
 
 header a{text-decoration: none;}
 
+hr{
+color: #0065FC;
+position: relative;
+top: -40px;}
+
 .hebergements a{
-text-decoration: overline;
-/* demander info pour overline avec une marge plus haute */
+position: relative;
+top: -20px;
 color: #0065FC;}
 
 .activitesamarseille a{
@@ -262,6 +267,10 @@ transition: 0.3s ease-in-out;}*/
 
 
 /* ****************** SECTION N°2 ******************** */
+.title{
+position: relative;
+right: -50px;}
+
 .greybackground{
 height: 650px;
 column-gap: 10% 10% 10%;
@@ -327,15 +336,33 @@ border-radius: 10%;}
 
 
 /* ****************** ASIDE ******************** */
-.evolution{position: relative;
-right: -100px;}
+.evolution{
+position: relative;
+right: -100px;
+left: 90px;}
 
 .popularite figure{display: flex;}
+
+.popularite{
+margin-left: -25px;
+margin-right: 30px;}
 
 .texteadroite{
 position: relative;
 top: -3px;
 right: -16px;}
+
+.deplacement{
+position: relative;
+top: 25px;}
+
+.deplacement2{
+position: relative;
+top: 20px;}
+
+.lesplus{
+position: relative;
+right: -25px;}
 
 .popularite img{
 height: 7em;
@@ -344,33 +371,31 @@ width: 8em;}
 .popu_greybackground{
 height: 650px;
 width: 400px;
-padding-bottom: auto;
-border-radius: 2%;
+border-radius: 5%;
 background-color: #F2F2F2;}
     
 .soleil{
 line-height: 1.5em;
-padding: 10px;
+padding: 6px;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
 margin-right: auto;
-border-radius: 10%;}
+border-radius: 5%;}
 
 .coeur{
-line-height: 1.5em;
-padding: 10px;
+padding: 6px;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
 margin-right: auto;
-border-radius: 10%;}
+border-radius: 5%;}
 
 .blanc{
 line-height: 1.5em;
-padding: 10px;
+padding: 6px;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
 margin-right: auto;
-border-radius: 10%;}
+border-radius: 5%;}
 
 
 /* ****************** SECTION N°3 ******************** */

@@ -85,6 +85,10 @@ font-style: normal;}
 
 html{font-family:"ralewaymedium";}
 
+body{
+max-width: 1650px;
+margin: auto;}
+
 span{font-weight: bold;}
 
 li{list-style-type: none;}
@@ -113,6 +117,10 @@ align-items: center;
 border-radius: 50%;
 border: 1px #0703fc21 solid;}
 
+a{
+color: black;
+text-decoration: none;}
+
 
 /* ****************** HEADER ******************** */
 header{
@@ -122,32 +130,24 @@ justify-content: space-between;}
 header ul{display: flex;}
 
 header li{
-text-align: center;
+line-height: 70px;
 margin: 30px;}
 
-a{
-color: black;
-text-decoration: none;}
+header li a:before{
+content: '';
+display: block;
+height: 1px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease;}
 
-header a{text-decoration: none;}
+header li a:hover:before {
+width: 90%;
+background :#0065FC;}
 
-hr{
-color: #0065FC;
-position: relative;
-top: -40px;}
-
-.hebergements a{
-position: relative;
-top: -20px;
+header a:hover{
+font-weight: bolder;
 color: #0065FC;}
-
-.activitesamarseille a{
-color: black;
-justify-content: space-around;}
-
-.inscription a{
-color: #0065FC;
-font-weight: bolder;}
 
 
 /* ****************** SECTION N°1 ******************** */
@@ -189,7 +189,7 @@ transition: 0.3s ease-in-out;
 transform: scale(1.15);
 background-color: #DEEBFF;}
 
-.economique{
+.logo2{
 white-space: pre;
 font-weight: bolder;
 width: 210px;
@@ -203,77 +203,24 @@ margin-right: 10px;
 border-radius: 20px;
 border: rgb(217, 217, 217) 1.5px solid;}
 
-.economique:hover{
+.logo2:hover{
 color: red;
 cursor: pointer;
 transform: scale(1.15);
 transition: 0.3s ease-in-out;}
 
-/*
-.familial{
-font-weight: bolder;
-width: 130px;
-height: 40px;
-text-indent: 20%;
-display: inline-flex;
-justify-content: space-around;
-align-items: center;
-margin-left: -37px;
-margin-right: 20px;
-border-radius: 25px;
-border: 1.5px rgb(217, 217, 217) solid;}
-
-.familial:hover{
-color: red;
-cursor: pointer;
-transition: 0.3s ease-in-out;}
-
-.romantique{
-font-weight: bolder;
-width: 150px;
-height: 40px;
-display: inline-flex;
-text-indent: 20%;
-justify-content: space-around;
-align-items: center;
-margin-left: -40px;
-margin-right: 20px;
-border-radius: 25px;
-border: 1.5px rgb(217, 217, 217) solid;}
-
-.romantique:hover{
-color: red;
-cursor: pointer;
-transition: 0.3s ease-in-out;}
-
-.animaux{
-font-weight: bolder;
-display: inline-flex;
-justify-content: space-around;
-align-items: center;
-white-space: pre;
-width: 210px;
-margin-left: -41px;
-margin-right: 20px;
-height: 40px;
-text-indent: 10%;
-border-radius: 20px;
-border: 1.2px rgb(217, 217, 217) solid;}
-
-.animaux:hover{
-color: hsl(0, 100%, 52%);
-cursor: pointer;
-transition: 0.3s ease-in-out;}*/
-
-
 /* ****************** SECTION N°2 ******************** */
 .title{
-position: relative;
-right: -50px;}
+margin-top: 60px;
+margin-left: 30px;}
+
+.ap{
+margin-top: 20px;
+margin-left: 30px;}
 
 .greybackground{
-height: 650px;
-column-gap: 10% 10% 10%;
+width: 1200px;
+padding-left: 10px;
 border-radius: 2%;
 background-color: #F2F2F2;}
 
@@ -289,45 +236,13 @@ height: 7em;
 width: 13em;}
 
 .middlerow{
+height: 690px;
+justify-content: center;
 display: flex;
 gap: 40px;}
 
-.cannebiere{
-padding: 10px;
-line-height: 1.5em;
-background-color: rgb(255, 255, 255);
-box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-border-radius: 10%;}
-
-.port{
-line-height: 1.5em;
-padding: 10px;
-background-color: rgb(255, 255, 255);
-box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-border-radius: 10%;}
-
-.mouette{
-line-height: 1.5em;
-padding: 10px;
-background-color: rgb(255, 255, 255);
-box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-border-radius: 10%;}
-
-.mer{
-line-height: 1.5em;
-padding: 10px;
-background-color: rgb(255, 255, 255);
-box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-border-radius: 10%;}
-
-.panier{
-line-height: 1.5em;
-padding: 10px;
-background-color: rgb(255, 255, 255);
-box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-border-radius: 10%;}
-
-.amina{
+.vignettes{
+margin: 15px;
 padding: 10px;
 line-height: 1.5em;
 background-color: rgb(255, 255, 255);
@@ -341,11 +256,19 @@ position: relative;
 right: -100px;
 left: 90px;}
 
-.popularite figure{display: flex;}
+.popularite figure{
+width: 340px;
+margin: -10px;
+display: flex;}
+
+.popularite a{
+margin-bottom: 50px;}
 
 .popularite{
-margin-left: -25px;
-margin-right: 30px;}
+display: flex;
+margin-top: 50px;
+align-items: center;
+flex-direction: column;}
 
 .texteadroite{
 position: relative;
@@ -361,16 +284,15 @@ position: relative;
 top: 20px;}
 
 .lesplus{
-position: relative;
-right: -25px;}
+padding-left: 30px;
+margin-top: 60px;}
 
 .popularite img{
 height: 7em;
 width: 8em;}
 
 .popu_greybackground{
-height: 650px;
-width: 400px;
+width: 450px;
 border-radius: 5%;
 background-color: #F2F2F2;}
     
@@ -400,7 +322,9 @@ border-radius: 5%;}
 
 /* ****************** SECTION N°3 ******************** */
 .photosactivites img{
+box-shadow: 0 50px 0 0 blue;
 border-radius: 10%;}
+
 
 .photosactivites figcaption{
 line-height: 1.5em;
@@ -414,65 +338,73 @@ gap: 15px;}
 
 .vieux{
 padding: 20px;
-box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
 
 .vieux img{
+image-rendering: pixelated;
 height: 450px;
-width: 350px;}
+width: 400px;}
 
 .fort{
 position: relative;
-left: -32px;
+left: -30px;
 padding: 20px;
-box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
 
-.fort img,.iles img{
-height: 10em;
-width: 20em;}
+.fort img{
+image-rendering: pixelated;
+height: 250px;
+width: 300px;}
+
+.iles img{
+image-rendering: pixelated;
+height: 120px;
+width: 300px;}
 
 .iles{
 position: relative;
-left: -450px;
-bottom: -290px;
+left: -430px;
+bottom: -330px;
 padding: 20px;
-box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
 
 .parc img{
+image-rendering: pixelated;
 height: 450px;
-width: 350px;}
+width: 400px;}
 
 .parc{
 position: relative;
-left: -480px;
+left: -450px;
 padding: 20px;
-box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
 
-.notredame img,.longchamp img{
-height: 10em;
-width: 20em;}
+.notredame img{
+image-rendering: pixelated;
+height: 200px;
+width: 350px;}
+
+.longchamp img{
+image-rendering: pixelated;
+height: 200px;
+width: 350px;}
 
 .notredame{
 position: relative;
-left: -510px;
-padding: 15px;
-box-shadow: 0px 4px 10px rgb(224, 224, 224);
+left: -480px;
+padding: 15px;;
 margin-right: auto;
 border-radius: 10%;}
 
 .longchamp{
-bottom: -290px;
+bottom: -250px;
 position: relative;
-left: -915px;
+left: -920px;
 padding: 20px;
-box-shadow: 0px 4px 10px rgb(224, 224, 224);
 margin-right: auto;
 border-radius: 10%;}
 

@@ -124,6 +124,7 @@ text-decoration: none;}
 
 /* ****************** HEADER ******************** */
 header{
+margin-right: 140px;
 display: flex;
 justify-content: space-between;}
 
@@ -189,6 +190,8 @@ transition: 0.3s ease-in-out;
 transform: scale(1.15);
 background-color: #DEEBFF;}
 
+#fami{width: 16px;}
+
 .logo2{
 white-space: pre;
 font-weight: bolder;
@@ -198,7 +201,7 @@ display: inline-flex;
 text-indent: 10%;
 justify-content: space-around;
 align-items: center;
-margin-left: -41px;
+margin-left: -42px;
 margin-right: 10px;
 border-radius: 20px;
 border: rgb(217, 217, 217) 1.5px solid;}
@@ -209,6 +212,7 @@ cursor: pointer;
 transform: scale(1.15);
 transition: 0.3s ease-in-out;}
 
+
 /* ****************** SECTION N°2 ******************** */
 .title{
 margin-top: 60px;
@@ -218,36 +222,39 @@ margin-left: 30px;}
 margin-top: 20px;
 margin-left: 30px;}
 
-.greybackground{
-width: 1200px;
+.greybackground{   
+width: 1000px;
 padding-left: 10px;
-border-radius: 2%;
+border-radius: 30px;
 background-color: #F2F2F2;}
 
 .hebergement-container{
 display: grid;
-grid-template-columns: 33% 33% 33%;}
+grid-template-columns: 30% 30% 30%;
+column-gap: 15px;
+}
 
 figcaption{font-weight: bolder;}
 
 .middlerow img{
-border-radius: 10%;
-height: 7em;
-width: 13em;}
+image-rendering: pixelated;
+border-radius: 30px 30px 0 0;
+height: 8em;
+width: 17em;}
+
+.txtdroite{margin-left: 10px;}
 
 .middlerow{
-height: 690px;
-justify-content: center;
 display: flex;
 gap: 40px;}
 
 .vignettes{
-margin: 15px;
-padding: 10px;
-line-height: 1.5em;
+width: 270px;
+padding: 8px;
+line-height: 1.4em;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-border-radius: 10%;}
+border-radius: 30px;}
 
 
 /* ****************** ASIDE ******************** */
@@ -257,12 +264,17 @@ right: -100px;
 left: 90px;}
 
 .popularite figure{
-width: 340px;
+padding: 7px;
+border-radius: 30px;
+width: 335px;
 margin: -10px;
 display: flex;}
 
-.popularite a{
-margin-bottom: 50px;}
+.texteadroite{
+margin-top: 5px;
+margin-left: 20px;}
+
+.popularite a{margin-bottom: 70px;}
 
 .popularite{
 display: flex;
@@ -270,66 +282,56 @@ margin-top: 50px;
 align-items: center;
 flex-direction: column;}
 
-.texteadroite{
-position: relative;
-top: -3px;
-right: -16px;}
-
 .deplacement{
 position: relative;
 top: 25px;}
 
 .deplacement2{
 position: relative;
-top: 20px;}
+top: 25px;}
 
 .lesplus{
-padding-left: 30px;
+padding-left: 50px;
 margin-top: 60px;}
 
 .popularite img{
-height: 7em;
-width: 8em;}
+border-radius: 20px 0px 0px 20px;
+image-rendering: pixelated; 
+width: 8em;
+height: 8em;}
 
 .popu_greybackground{
 width: 450px;
-border-radius: 5%;
+border-radius: 30px;
 background-color: #F2F2F2;}
     
 .soleil{
-line-height: 1.5em;
-padding: 6px;
+line-height: 1.3em;
 background-color: rgb(255, 255, 255);
-box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-margin-right: auto;
-border-radius: 5%;}
+box-shadow: 10px 10px 26px -4px rgb(224, 224, 224);}
 
 .coeur{
-padding: 6px;
 background-color: rgb(255, 255, 255);
-box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-margin-right: auto;
-border-radius: 5%;}
+box-shadow: 10px 10px 26px -4px rgb(224, 224, 224);}
 
 .blanc{
-line-height: 1.5em;
-padding: 6px;
+line-height: 1.3em;
 background-color: rgb(255, 255, 255);
-box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
-margin-right: auto;
-border-radius: 5%;}
+box-shadow: 10px 10px 26px -4px rgb(224, 224, 224);}
 
 
 /* ****************** SECTION N°3 ******************** */
-.photosactivites img{
-box-shadow: 0 50px 0 0 blue;
-border-radius: 10%;}
-
+.photosactivites img{border-radius: 30px 30px 0 0;}
 
 .photosactivites figcaption{
-line-height: 1.5em;
+background-color: rgb(255, 255, 255);
+box-shadow: 10px 10px 26px -4px rgb(224, 224, 224);
+height: 50px;
+border-radius: 0 0 30px 30px ;
+line-height: 3em;
 text-indent: 1.3em;
-margin-top: 3px;}
+margin-bottom: 40px;
+margin-top: -4px;}
 
 .photosactivites{
 margin-left: -60px;
@@ -338,34 +340,32 @@ gap: 15px;}
 
 .vieux{
 padding: 20px;
-margin-right: auto;
-border-radius: 10%;}
+margin-right: auto;}
 
 .vieux img{
 image-rendering: pixelated;
 height: 450px;
-width: 400px;}
+width: 350px;}
 
 .fort{
 position: relative;
-left: -30px;
+left: -50px;
 padding: 20px;
-margin-right: auto;
-border-radius: 10%;}
+margin-right: auto;}
 
 .fort img{
 image-rendering: pixelated;
 height: 250px;
-width: 300px;}
+width: 350px;}
 
 .iles img{
 image-rendering: pixelated;
 height: 120px;
-width: 300px;}
+width: 350px;}
 
 .iles{
 position: relative;
-left: -430px;
+left: -500px;
 bottom: -330px;
 padding: 20px;
 margin-right: auto;
@@ -374,39 +374,37 @@ border-radius: 10%;}
 .parc img{
 image-rendering: pixelated;
 height: 450px;
-width: 400px;}
+width: 350px;}
 
 .parc{
 position: relative;
-left: -450px;
+left: -550px;
 padding: 20px;
-margin-right: auto;
-border-radius: 10%;}
+margin-right: auto;}
 
 .notredame img{
 image-rendering: pixelated;
-height: 200px;
-width: 350px;}
+height: 160px;
+width: 320px;}
 
 .longchamp img{
 image-rendering: pixelated;
 height: 200px;
-width: 350px;}
+width: 320px;}
 
 .notredame{
 position: relative;
-left: -480px;
+left: -600px;
 padding: 15px;;
-margin-right: auto;
-border-radius: 10%;}
+margin-right: auto;}
 
 .longchamp{
 bottom: -250px;
 position: relative;
-left: -920px;
+left: -1010px;
 padding: 20px;
-margin-right: auto;
-border-radius: 10%;}
+margin-right: auto;}
+
 
 /* ****************** FOOTER ******************** */
 .greybackgroundfooter{

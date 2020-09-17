@@ -231,7 +231,7 @@ background-color: #F2F2F2;}
 .hebergement-container{
 display: grid;
 grid-template-columns: 30% 30% 30%;
-column-gap: 15px;
+column-gap: 10px;
 }
 
 figcaption{font-weight: bolder;}
@@ -412,9 +412,7 @@ margin-right: auto;}
 
 
 /* ****************** FOOTER ******************** */
-.greybackgroundfooter{
-background-color: #F2F2F2;
-width: 120%;}
+.greybackgroundfooter{background-color: #F2F2F2;}
 
 .remarques{
 display: grid;

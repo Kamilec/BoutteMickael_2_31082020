@@ -143,6 +143,7 @@ background: transparent;
 transition: width .5s ease, background-color .5s ease;}
 
 header li a:hover:before {
+    border-top: aqua;
 width: 90%;
 background :#0065FC;}
 
@@ -178,6 +179,8 @@ height: 40px;
 width: 90px;
 cursor: pointer;
 background-color: #0065FC;}
+
+.loupe{display: none;}
 
 .logos{
 color: #0065FC;

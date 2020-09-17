@@ -1,4 +1,6 @@
 /* ****************** HTML ******************** */
+@import "media.css";
+
 @font-face {
  font-family: 'ralewayblack';
 src: url("font/raleway-black-webfont.woff2") format('woff2'),
@@ -143,7 +145,6 @@ background: transparent;
 transition: width .5s ease, background-color .5s ease;}
 
 header li a:hover:before {
-    border-top: aqua;
 width: 90%;
 background :#0065FC;}
 

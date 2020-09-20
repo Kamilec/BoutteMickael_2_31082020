@@ -126,6 +126,7 @@ text-decoration: none;}
 
 /* ****************** HEADER ******************** */
 header{
+max-width: 100%;
 margin-right: 140px;
 display: flex;
 justify-content: space-between;}
@@ -159,6 +160,7 @@ line-height: 0em;
 margin-bottom: 30px;}
 
 .map{
+padding-bottom: 1px;
 border: 10px solid #F2F2F2;
 border-radius: 10px 0 0 10px;
 background-color: #F2F2F2;}
@@ -169,7 +171,7 @@ color: black;
 text-indent: 3%;
 border: 0.5px solid #F2F2F2;
 border-radius: 0 0 0 0;
-height: 38px;
+height: 36px;
 width: 250px;}
 
 .bouton{
@@ -227,7 +229,7 @@ margin-top: 20px;
 margin-left: 30px;}
 
 .greybackground{   
-width: 1000px;
+width: 100%;
 padding-left: 10px;
 border-radius: 30px;
 background-color: #F2F2F2;}
@@ -235,8 +237,7 @@ background-color: #F2F2F2;}
 .hebergement-container{
 display: grid;
 grid-template-columns: 30% 30% 30%;
-column-gap: 10px;
-}
+column-gap: 10px;}
 
 figcaption{font-weight: bolder;}
 
@@ -264,8 +265,7 @@ border-radius: 30px;}
 /* ****************** ASIDE ******************** */
 .evolution{
 position: relative;
-right: -100px;
-left: 90px;}
+left: 80px;}
 
 .popularite figure{
 padding: 7px;
@@ -295,7 +295,7 @@ position: relative;
 top: 25px;}
 
 .lesplus{
-padding-left: 50px;
+margin-left: -5px;
 margin-top: 60px;}
 
 .popularite img{
@@ -305,7 +305,7 @@ width: 8em;
 height: 8em;}
 
 .popu_greybackground{
-width: 450px;
+padding: 0px 80px 0px 50px;
 border-radius: 30px;
 background-color: #F2F2F2;}
     
@@ -419,13 +419,16 @@ margin-right: auto;}
 .greybackgroundfooter{background-color: #F2F2F2;}
 
 .remarques{
-display: grid;
-grid-template-columns: 30% 30% 40%;
-justify-content: space-around;}
+display: flex;
+grid-template-columns: 30% 30% 40%;}
 
-.apropos{line-height: 2em;}
+.apropos{
+margin-right: 190px;
+line-height: 2em;}
 
-.noshebergements{line-height: 2em;}
+.noshebergements{
+margin-right: 250px;
+line-height: 2em;}
 
 .assistance{line-height: 2em;}
 

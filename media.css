@@ -10,6 +10,8 @@
     height: 10em;
     width: 10em;}
 
+    .popularite .hebergement-container::before{}
+
     .popularite{
     margin-top: 0;
     display: inline-block;

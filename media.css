@@ -91,8 +91,11 @@
     
     .middlerow{flex-direction: column;}
 
-    .greybackground{margin-top: 50px;}
-    
+    .greybackground{
+        position: relative;
+        top: 780px;
+        margin-top: 50px;}
+
    
      /* ***** ASIDE ***** */
 
@@ -107,11 +110,15 @@
     
     .popularite figure{margin: 3%;}
 
-    .popu_greybackground{width: 100%;}
+    .popu_greybackground{
+    position: relative;
+    top: -1700px;
+    width: 97%;}
 
 
     /* ***** SECTION N°2 ***** */
 
+    .hebergement-container{grid-template-columns: repeat(1, 1fr);}
 
 
      /* ***** SECTION N°3 ***** */
@@ -156,7 +163,8 @@
     /* ***** FOOTER ***** */
 
     .remarques{
-        margin-top: -30em;
-        flex-direction: column;}
+    margin-top: -30em;
+     flex-direction: column;}
+    
    
 }

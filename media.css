@@ -92,9 +92,9 @@
     .middlerow{flex-direction: column;}
 
     .greybackground{
-        position: relative;
-        top: 780px;
-        margin-top: 50px;}
+    position: relative;
+    top: 780px;
+    margin-top: 50px;}
 
    
      /* ***** ASIDE ***** */

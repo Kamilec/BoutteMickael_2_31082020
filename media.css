@@ -1,7 +1,6 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
 
    /* ***** HEADER ***** */
-
     .hebergements{
     position: relative;
     top: 60px;
@@ -28,7 +27,6 @@
 
 
     /* ***** SECTION N°1 ***** */
-
     h1{margin-top: 50px;}
 
     .boutonch{
@@ -75,7 +73,7 @@
     .logos:nth-child(6){
     position: relative;
     top: 50px;
-    left: -261px;}
+    left: -262px;}
 
     .logos:nth-child(8){
     position: relative;
@@ -98,7 +96,6 @@
 
    
      /* ***** ASIDE ***** */
-
     .popularite img{
     height: 10em;
     width: 10em;}
@@ -108,21 +105,19 @@
     display: inline-block;
     padding-bottom: 9%;}
     
-    .popularite figure{margin: 3%;}
+    .popularite figure{margin-top: 20px;}
 
     .popu_greybackground{
     position: relative;
     top: -1700px;
-    width: 97%;}
+    width: 70%;}
 
 
     /* ***** SECTION N°2 ***** */
-
     .hebergement-container{grid-template-columns: repeat(1, 1fr);}
 
 
      /* ***** SECTION N°3 ***** */
-
     .photosactivites img{
     width: 450px;
     height: 200px;}
@@ -161,10 +156,36 @@
 
 
     /* ***** FOOTER ***** */
-
     .remarques{
     margin-top: -30em;
-     flex-direction: column;}
-    
-   
+    flex-direction: column;} 
 }
+
+
+
+    @media screen and (min-width: 480px) and (max-width: 969px){
+
+    /* ***** HEADER ***** */
+    header li{ 
+    position: relative;
+    right: -700px;}
+
+
+    /* ***** SECTION N°1 ***** */
+    .info{
+    position: relative;
+    top: -30px;}
+
+    .para{
+    font-weight: normal;
+    position: relative;
+    top: -30px;}
+
+    .logo2:nth-child(9){
+    position: relative;
+    left: 860px;
+    top: -50px;}
+
+
+    /* ***** FOOTER ***** */
+    .greybackgroundfooter{width: 110em;}}

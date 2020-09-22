@@ -91,8 +91,6 @@ span{font-weight: bold;}
 
 li{list-style-type: none;}
 
-body{margin: auto;}
-
 h1{ 
 font-family: "ralewayblack";
 padding-top: -1.5px;}
@@ -337,81 +335,39 @@ box-shadow: 10px 10px 26px -4px rgb(224, 224, 224);
 height: 50px;
 border-radius: 0 0 30px 30px ;
 line-height: 3em;
-text-indent: 1.3em;
-margin-bottom: 40px;
-margin-top: -4px;}
+text-indent: 1.3em;}
 
-.photosactivites{
-margin-left: -60px;
-display: flex;
-gap: 15px;}
-
-.vieux{
-padding: 20px;
-margin-right: auto;}
+.photosactivites{display: flex;}
 
 .vieux img{
 image-rendering: pixelated;
-height: 450px;
-width: 400px;}
-
-.fort{
-position: relative;
-left: -50px;
-padding: 20px;
-margin-right: auto;}
+height: 400px;
+width: 350px;}
 
 .fort img{
 image-rendering: pixelated;
-height: 250px;
-width: 350px;}
+height: 220px;
+width: 300px;}
 
 .iles img{
 image-rendering: pixelated;
-height: 120px;
-width: 350px;}
-
-.iles{
-position: relative;
-left: -500px;
-bottom: -330px;
-padding: 20px;
-margin-right: auto;
-border-radius: 10%;}
+height: 110px;
+width: 300px;}
 
 .parc img{
 image-rendering: pixelated;
-height: 450px;
-width: 400px;}
-
-.parc{
-position: relative;
-left: -550px;
-padding: 20px;
-margin-right: auto;}
+height: 400px;
+width: 350px;}
 
 .notredame img{
 image-rendering: pixelated;
-height: 160px;
-width: 350px;}
+height: 200px;
+width: 310px;}
 
 .longchamp img{
 image-rendering: pixelated;
 height: 200px;
-width: 350px;}
-
-.notredame{
-position: relative;
-left: -600px;
-padding: 15px;;
-margin-right: auto;}
-
-.longchamp{
-bottom: -250px;
-position: relative;
-left: -1040px;
-padding: 20px;
-margin-right: auto;}
+width: 310px;}
 
 
 /* ****************** FOOTER ******************** */

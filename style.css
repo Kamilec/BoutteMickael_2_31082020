@@ -88,8 +88,8 @@ font-style: normal;}
 html{font-family:"ralewaymedium";}
 
 body{
-padding: 20px;
-margin: 2%;}
+margin: 50px;
+padding: 20px;}
 
 span{font-weight: bold;}
 
@@ -134,9 +134,7 @@ justify-content: space-between;}
 header ul{display: flex;}
 
 header li{
-position: relative;
 margin-right: 110px;
-right: 100px;  
 line-height: 50px;}
 
 header li a:before{
@@ -238,14 +236,13 @@ margin-top: 20px;
 margin-left: 50px;}
 
 .greybackground{
-margin-top: 30px;
 padding-left: 10px;
 border-radius: 30px;
 background-color: #F2F2F2;}
 
 .hebergement-container{
 display: grid;
-grid-template-columns: 30% 30% 30%;
+grid-template-columns: 33% 33% 33%;
 column-gap: 10px;}
 
 figcaption{font-weight: bolder;}
@@ -259,12 +256,12 @@ width: 17em;}
 .txtdroite{margin-left: 10px;}
 
 .middlerow{
+margin-top: 50px;
 display: flex;
 gap: 40px;}
 
 .vignettes{
-width: 270px;
-padding: 8px;
+padding: 4px;
 line-height: 1.4em;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
@@ -314,7 +311,7 @@ width: 8em;
 height: 8em;}
 
 .popu_greybackground{
-padding: 0px 80px 0px 50px;
+padding: 0px 100px 0px 90px;
 border-radius: 30px;
 background-color: #F2F2F2;}
     
@@ -344,7 +341,9 @@ margin-bottom: -10px;}
 box-shadow: 10px 10px 26px -4px rgb(224, 224, 224);
 border-radius: 0 0 30px 30px ;
 margin-left: -50px;
-line-height: 3em;
+width: 400px;
+margin-top: 10px;
+height: 40px;
 text-indent: 1.5em;}
 
 .photosactivites{
@@ -361,13 +360,13 @@ width: 400px;}
 margin-left: -50px;
 image-rendering: pixelated;
 height: 250px;
-width: 350px;}
+width: 400px;}
 
 .iles img{
 margin-left: -50px;
 image-rendering: pixelated;
 height: 130px;
-width: 350px;}
+width: 400px;}
 
 .parc img{
 margin-left: -50px;
@@ -390,7 +389,7 @@ width: 400px;}
 
 /* ****************** FOOTER ******************** */
 .greybackgroundfooter{
-width: 95%;
+height: 200px;
 margin-left: -20px;
 background-color: #F2F2F2;}
 
@@ -400,7 +399,7 @@ footer p{margin-top: -20px;}
 
 .remarques{
 display: flex;
-gap: 250px;}
+gap: 350px;}
 
 .apropos{
 margin-left: 20px;

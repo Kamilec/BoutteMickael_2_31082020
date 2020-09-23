@@ -87,7 +87,9 @@ font-style: normal;}
 
 html{font-family:"ralewaymedium";}
 
-body{margin: 2%;}
+body{
+padding: 20px;
+margin: 2%;}
 
 span{font-weight: bold;}
 
@@ -135,7 +137,7 @@ header li{
 position: relative;
 margin-right: 110px;
 right: 100px;  
-line-height: 40px;}
+line-height: 50px;}
 
 header li a:before{
 content: '';
@@ -156,7 +158,7 @@ color: #0065FC;}
 /* ****************** SECTION N°1 ******************** */
 .centreville{
 line-height: 0em;
-margin-bottom: 30px;}
+margin-bottom: 50px;}
 
 .map{
 font-size: 20px;
@@ -179,6 +181,7 @@ margin-left: 1em;
 font-size: 1.3em;}
 
 .rechercher{
+margin-bottom: 30px;
 border: #F2F2F2;
 color: white;
 border-radius: 0 15px 15px 0;
@@ -187,6 +190,10 @@ cursor: pointer;
 background-color: #0065FC;}
 
 .loupe{visibility: hidden;}
+
+.para{font-weight: normal;}
+
+.logostitre{display: flex;}
 
 .logos{
 font-size: 1.2em;
@@ -202,6 +209,7 @@ margin-right: -5px;
 width: 23px;}
 
 .logo2{
+margin-bottom: 30px;
 white-space: pre;
 font-weight: bolder;
 width: 210px;
@@ -230,6 +238,7 @@ margin-top: 20px;
 margin-left: 50px;}
 
 .greybackground{
+margin-top: 30px;
 padding-left: 10px;
 border-radius: 30px;
 background-color: #F2F2F2;}

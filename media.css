@@ -1,15 +1,23 @@
 @media screen and (max-width: 480px){
 
+    /* ***** HTML ***** */
+    body{margin: auto}
+
+    
     /* ***** HEADER ***** */
      .hebergements{
      position: relative;
      top: 60px;
-     left: -100px;}
+     left: -120px;}
  
      .activitesamarseille{
      position: relative;
      top: 60px;
-     left: -50px;}
+     left: -100px;}
+
+     .inscription{
+    position: relative;
+    left: -270px;}
  
      header li a:before{content: none;}
   
@@ -28,6 +36,13 @@
  
      /* ***** SECTION N°1 ***** */
      h1{margin-top: 50px;}
+
+    .fa-search{
+    position: relative;
+    right: 15px;
+    font-size: 1.2em;}
+    
+    .rechercher{border-radius: 15px 15px 15px 15px;}
  
      .boutonch{
      margin-left: -70px;
@@ -45,146 +60,21 @@
      font-weight: normal;
      position: relative;
      top: 20px;}
- 
-     .logo2:nth-child(3){
-     position: relative;
-     top: 40px;
-     left: -70px;}
- 
-     .logo2:nth-child(5){
-     position: relative;
-     bottom: 10px;
-     left: 220px;}
- 
-     .logo2:nth-child(9){
-     position: relative;
-     top: 10px;}
- 
-     .logos:nth-child(2){
-     position: relative;
-     top: 40px;
-     left: -65px;}
- 
-     .logos:nth-child(4){
-     position: relative;
-     top: 40px;
-     left: -115px;}
- 
-     .logos:nth-child(6){
-     position: relative;
-     top: 50px;
-     left: -262px;}
- 
-     .logos:nth-child(8){
-     position: relative;
-     top: 60px;
-     left: -262px;}
- 
-     .fa-search{
-     position: relative;
-     right: 15px;
-     font-size: 1.2em;}
- 
-     .rechercher{border-radius: 15px 15px 15px 15px;}
+
+     .filtres{
+    position: relative;
+    top: 20px; 
+    margin-top: 10px;
+    margin-bottom: 25px;}
+
+     .logostitre{flex-direction: column;}
+
+     .firstgroup{
+    position: relative;
+    right: 60px;}
+
+    .filtre12{margin-bottom: 10px;}
+
+
+
      
-     .middlerow{flex-direction: column;}
- 
-     .greybackground{
-     position: relative;
-     top: 780px;
-     margin-top: 50px;}
- 
-    
-      /* ***** ASIDE ***** */
-     .popularite img{
-     height: 10em;
-     width: 10em;}
- 
-     .popularite{
-     margin-top: 0;
-     display: inline-block;
-     padding-bottom: 9%;}
-     
-     .popularite figure{margin-top: 20px;}
- 
-     .popu_greybackground{
-     position: relative;
-     top: -1700px;
-     width: 70%;}
- 
- 
-     /* ***** SECTION N°2 ***** */
-     .hebergement-container{grid-template-columns: repeat(1, 1fr);}
- 
- 
-      /* ***** SECTION N°3 ***** */
-     .photosactivites img{
-     width: 450px;
-     height: 200px;}
- 
-     .vieux{ 
-     position: relative;
-     left: -50px;}
- 
-     .fort{
-     position: relative;
-     top: -100px;}
- 
-     .iles{
-     position: relative;
-     top: -200px;
-     left: -50px;}
- 
-     .parc{
-     position: relative;
-     top: -300px;
-     left: -50px;}
- 
-     .notredame{
-     position: relative;
-     top: -400px;
-     left: -45px;}
- 
-     .longchamp{
-     position: relative;
-     top: -500px;
-     left: -50px;}
- 
-     .photosactivites{
-     margin-left: 0;
-     display: grid;}
- 
- 
-     /* ***** FOOTER ***** */
-     .remarques{
-     margin-top: -30em;
-     flex-direction: column;} 
- }
- 
- 
-     @media screen and (min-width: 480px) and (max-width: 969px){
- 
-     /* ***** HEADER ***** */
-     header li{ 
-     position: relative;
-     right: -700px;}
- 
- 
-     /* ***** SECTION N°1 ***** */
-     .info{
-     position: relative;
-     top: -30px;}
- 
-     .para{
-     font-weight: normal;
-     position: relative;
-     top: -30px;}
- 
-     .logo2:nth-child(9){
-     position: relative;
-     left: 860px;
-     top: -50px;}
- 
- 
-     /* ***** FOOTER ***** */
-     .greybackgroundfooter{width: 110em;}}

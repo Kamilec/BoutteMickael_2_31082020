@@ -87,6 +87,8 @@ font-style: normal;}
 
 html{font-family:"ralewaymedium";}
 
+body{margin: 2%;}
+
 span{font-weight: bold;}
 
 li{list-style-type: none;}
@@ -124,14 +126,15 @@ text-decoration: none;}
 
 /* ****************** HEADER ******************** */
 header{
-margin-right: -25px;
 display: flex;
 justify-content: space-between;}
 
 header ul{display: flex;}
 
 header li{
-margin-right: 80px;
+position: relative;
+margin-right: 110px;
+right: 100px;  
 line-height: 40px;}
 
 header li a:before{
@@ -142,7 +145,7 @@ border: 0.1px solid transparent;
 transition: width .5s ease, background-color .5s ease;}
 
 header li a:hover:before {
-width: 90%;
+width: 100%;
 background :#0065FC;}
 
 header a:hover{
@@ -220,11 +223,11 @@ transition: 0.3s ease-in-out;}
 /* ****************** SECTION N°2 ******************** */
 .title{
 margin-top: 60px;
-margin-left: 30px;}
+margin-left: 50px;}
 
 .ap{
 margin-top: 20px;
-margin-left: 30px;}
+margin-left: 50px;}
 
 .greybackground{
 padding-left: 10px;
@@ -324,65 +327,76 @@ box-shadow: 10px 10px 26px -4px rgb(224, 224, 224);}
 /* ****************** SECTION N°3 ******************** */
 .titreactivite{
 margin-top: 100px;
-margin-bottom: -10px;
-margin-left: 10px;}
+margin-bottom: -10px;}
 
 .photosactivites img{border-radius: 30px 30px 0 0;}
 
 .photosactivites figcaption{
-background-color: rgb(255, 255, 255);
 box-shadow: 10px 10px 26px -4px rgb(224, 224, 224);
-height: 50px;
 border-radius: 0 0 30px 30px ;
+margin-left: -50px;
 line-height: 3em;
-text-indent: 1.3em;}
+text-indent: 1.5em;}
 
-.photosactivites{display: flex;}
+.photosactivites{
+margin-bottom: 80px;
+display: flex;}
 
 .vieux img{
+margin-left: -50px;
 image-rendering: pixelated;
-height: 400px;
-width: 350px;}
+height: 450px;
+width: 400px;}
 
 .fort img{
+margin-left: -50px;
 image-rendering: pixelated;
-height: 220px;
-width: 300px;}
-
-.iles img{
-image-rendering: pixelated;
-height: 110px;
-width: 300px;}
-
-.parc img{
-image-rendering: pixelated;
-height: 400px;
+height: 250px;
 width: 350px;}
 
-.notredame img{
+.iles img{
+margin-left: -50px;
 image-rendering: pixelated;
-height: 200px;
-width: 310px;}
+height: 130px;
+width: 350px;}
+
+.parc img{
+margin-left: -50px;
+image-rendering: pixelated;
+height: 450px;
+width: 400px;}
+
+.notredame img{
+margin-left: -50px;
+image-rendering: pixelated;
+height: 190px;
+width: 400px;}
 
 .longchamp img{
+margin-left: -50px;
 image-rendering: pixelated;
-height: 200px;
-width: 310px;}
+height: 190px;
+width: 400px;}
 
 
 /* ****************** FOOTER ******************** */
-.greybackgroundfooter{background-color: #F2F2F2;}
+.greybackgroundfooter{
+width: 95%;
+margin-left: -20px;
+background-color: #F2F2F2;}
+
+footer h3{line-height: 3em;}
+
+footer p{margin-top: -20px;}
 
 .remarques{
 display: flex;
-grid-template-columns: 30% 30% 40%;}
+gap: 250px;}
 
 .apropos{
-margin-right: 190px;
-line-height: 2em;}
+margin-left: 20px;
+line-height: 1.8em;}
 
-.noshebergements{
-margin-right: 250px;
-line-height: 2em;}
+.noshebergements{line-height: 1.8em;}
 
-.assistance{line-height: 2em;}
+.assistance{line-height: 1.8em;}

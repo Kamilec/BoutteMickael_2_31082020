@@ -8,7 +8,7 @@
     .hebergements{
     position: relative;
     top: 60px;
-    left: -120px;}
+    left: -90px;}
  
     .activitesamarseille{
     position: relative;
@@ -19,9 +19,9 @@
     position: relative;
     left: -200px;}
  
-    header li a:before{content: none;}
+    header span a:before{content: none;}
   
-    header li a:after{
+    header span a:after{
     content: '';
     display: block;
     height: 1px;
@@ -29,7 +29,7 @@
     border: 1px solid transparent;
     transition: width .5s ease, background-color .5s ease;}
  
-    header li a:hover::after{
+    header span a:hover::after{
     width: 100%;
     background :#0065FC;}
  

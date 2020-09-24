@@ -1,7 +1,10 @@
 @media screen and (max-width: 480px){
 
     /* ***** HTML ***** */
-    body{margin: auto}
+    body{
+    margin: 0;
+    width: auto;
+    padding: auto;}
 
     
     /* ***** HEADER ***** */
@@ -17,7 +20,7 @@
 
      .inscription{
     position: relative;
-    left: -270px;}
+    left: -180px;}
  
      header li a:before{content: none;}
   
@@ -44,36 +47,88 @@
     
     .rechercher{border-radius: 15px 15px 15px 15px;}
  
-     .boutonch{
+    .boutonch{
      margin-left: -70px;
      visibility: hidden;}
  
-     .map{font-size: 1.3em;}
+    .map{font-size: 1.3em;}
  
-     .loupe{visibility: visible;}
+    .loupe{visibility: visible;}
  
-     .info{
+    .info{
      position: relative;
      top: 20px;}
  
-     .para{
+    .para{
      font-weight: normal;
      position: relative;
      top: 20px;}
 
-     .filtres{
+    .filtres{
     position: relative;
     top: 20px; 
     margin-top: 10px;
     margin-bottom: 25px;}
 
-     .logostitre{flex-direction: column;}
+    .logostitre{flex-direction: column;}
 
      .firstgroup{
     position: relative;
     right: 60px;}
 
     .filtre12{margin-bottom: 10px;}
+
+
+     /* ***** ASIDE ***** */
+    .lesplus{margin-left: -70px;}
+
+    .evolution{
+    position: relative;
+    left: 150px};}
+
+    .middlerow{
+    width: 100%;
+    flex-direction: column;}
+        
+    .popularite img{
+    width: 10em;
+    height: 10em;}
+
+    .popu_greybackground{
+    position: relative;
+    bottom: 1850px;}
+
+    .popularite figure{
+    margin-bottom: -50px;
+    padding: 8px;
+    width: 25em;
+    height: 10em;}
+
+    .title{margin-left: 0;}
+
+    .ap{margin-left: 0;}
+
+
+
+    /* ***** SECTION N°2 ***** */
+    .greybackground{
+    position: relative;
+    top: 800px;
+    width: 100%;}
+
+    .hebergement-container{grid-template-columns: repeat(1, 1fr);}
+
+    .hebergement-container img{
+    width: 27em;
+    height: 10em;}
+
+    .vignettes{
+    position: relative;
+    right: 50px;
+    width: 27em;
+    height: 15em;}
+    
+    
 
 
 

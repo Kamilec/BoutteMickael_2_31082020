@@ -91,8 +91,6 @@ body{padding: 20px;}
 
 span{font-weight: bold;}
 
-li{list-style-type: none;}
-
 h1{ 
 font-family: "ralewayblack";
 padding-top: -1.5px;}
@@ -129,20 +127,21 @@ header{
 display: flex;
 justify-content: space-between;}
 
-header ul{display: flex;}
+.nav{display: flex;}
 
-header li{
+header span{
+font-weight: normal;
 margin-right: 110px;
 line-height: 50px;}
 
-header li a:before{
+header span a:before{
 content: '';
 display: block;
 width: 0;
 border: 0.1px solid transparent;
 transition: width .5s ease, background-color .5s ease;}
 
-header li a:hover:before {
+header span a:hover:before {
 width: 100%;
 background :#0065FC;}
 

@@ -1,40 +1,41 @@
-@media screen and (max-width: 480px){
-
+@media screen and (max-width: 600px){
 
     /* ***** HEADER ***** */
-    body{padding: 0%;}
+    body{padding: 20px;
+    width: 450px;
+    padding-left: 70px;}
 
     .hebergements{
-     position: relative;
-     top: 60px;
-     left: -120px;}
+    position: relative;
+    top: 60px;
+    left: -120px;}
  
     .activitesamarseille{
-     position: relative;
-     top: 60px;
-     left: -100px;}
+    position: relative;
+    top: 60px;
+    left: -100px;}
 
     .inscription{
     position: relative;
     left: -200px;}
  
-     header li a:before{content: none;}
+    header li a:before{content: none;}
   
-     header li a:after{
-     content: '';
-     display: block;
-     height: 1px;
-     width: 0;
-     border: 1px solid transparent;
-     transition: width .5s ease, background-color .5s ease;}
+    header li a:after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    border: 1px solid transparent;
+    transition: width .5s ease, background-color .5s ease;}
  
-     header li a:hover::after{
-     width: 100%;
-     background :#0065FC;}
+    header li a:hover::after{
+    width: 100%;
+    background :#0065FC;}
  
  
-     /* ***** SECTION N°1 ***** */
-     h1{margin-top: 50px;}
+    /* ***** SECTION N°1 ***** */
+    h1{margin-top: 50px;}
 
     .fa-search{
     position: relative;
@@ -44,8 +45,8 @@
     .rechercher{border-radius: 15px 15px 15px 15px;}
  
     .boutonch{
-     margin-left: -70px;
-     visibility: hidden;}
+    margin-left: -70px;
+    visibility: hidden;}
  
     .map{font-size: 1.3em;}
  
@@ -75,7 +76,7 @@
     .filtre12{margin-bottom: 10px;}
 
 
-     /* ***** ASIDE ***** */
+    /* ***** ASIDE ***** */
     .lesplus{margin-left: -70px;}
 
     .evolution{
@@ -153,11 +154,6 @@
     display: initial;}
 
     .apropos{margin-left: 0;}
-
-
-    
-
-    
 
 
     }

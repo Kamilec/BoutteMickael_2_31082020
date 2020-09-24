@@ -1,6 +1,9 @@
 @media screen and (max-width: 480px){
 
+
     /* ***** HEADER ***** */
+    body{padding: 0%;}
+
     .hebergements{
      position: relative;
      top: 60px;
@@ -13,7 +16,7 @@
 
     .inscription{
     position: relative;
-    left: -180px;}
+    left: -200px;}
  
      header li a:before{content: none;}
   
@@ -77,7 +80,7 @@
 
     .evolution{
     position: relative;
-    left: 150px;}
+    left: 130px;}
 
     .middlerow{flex-direction: column;}
         

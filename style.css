@@ -127,7 +127,7 @@ header{
 display: flex;
 justify-content: space-between;}
 
-nav{display: flex;}
+.nav{display: flex;}
 
 header span{
 font-weight: normal;

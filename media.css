@@ -1,12 +1,5 @@
 @media screen and (max-width: 480px){
 
-    /* ***** HTML ***** */
-    body{
-    margin: 0;
-    width: auto;
-    padding: auto;}
-
-    
     /* ***** HEADER ***** */
     .hebergements{
      position: relative;
@@ -86,9 +79,7 @@
     position: relative;
     left: 150px;}
 
-    .middlerow{
-    width: 100%;
-    flex-direction: column;}
+    .middlerow{flex-direction: column;}
         
     .popularite img{
     width: 10em;
@@ -96,7 +87,7 @@
 
     .popu_greybackground{
     position: relative;
-    bottom: 1850px;}
+    bottom: 1950px;}
 
     .popularite figure{
     margin-bottom: -50px;
@@ -104,16 +95,17 @@
     width: 25em;
     height: 10em;}
 
-    .title{margin-left: 0;}
-
-    .ap{margin-left: 0;}
-
-
+    
     /* ***** SECTION N°2 ***** */
+    .title{margin-left: 5px;}
+
+    .ap{margin-left: 5px;}
+
     .greybackground{
+    margin-bottom: 120px;
     position: relative;
-    top: 800px;
-    width: 100%;}
+    background-color: initial;
+    top: 720px;}
 
     .hebergement-container{grid-template-columns: repeat(1, 1fr);}
 
@@ -123,9 +115,47 @@
 
     .vignettes{
     position: relative;
-    right: 50px;
+    right: 40px;}
+
+
+    /* ***** SECTION N°3 ***** */
+    .titreactivite{
+    position: relative;
+    left: 25px;
+    margin-bottom: 10px;
+    margin-top: -100px;}
+
+    .photosactivites{
+    position: relative;
+    left: 25px;
+    flex-direction: column;}
+
+    .photosactivites img{
     width: 27em;
-    height: 15em;}
+    height: 10em;}
+
+    .photosactivites figcaption{
+    width: 27em;
+    height: 3em;}
+
+
+    /* ***** FOOTER ***** */
+    .greybackgroundfooter{
+    margin-top: -40px;
+    height: 450px;}
+
+    .remarques{
+    position: relative;
+    left: 50px;
+    display: initial;}
+
+    .apropos{margin-left: 0;}
+
+
+    
+
+    
+
 
     }
     

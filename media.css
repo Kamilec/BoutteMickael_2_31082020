@@ -2,8 +2,7 @@
 
     /* ***** HEADER ***** */
     body{padding: 20px;
-    width: 450px;
-    padding-left: 70px;}
+    width: 450px;}
 
     .hebergements{
     position: relative;
@@ -63,7 +62,7 @@
 
     .filtres{
     position: relative;
-    top: 20px; 
+    top: 10px; 
     margin-top: 10px;
     margin-bottom: 25px;}
 

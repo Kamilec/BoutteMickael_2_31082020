@@ -94,6 +94,10 @@
     width: 10em;
     height: 10em;}
 
+    .popu_greybackground{
+    position: relative;
+    bottom: 1850px;}
+
     .popularite figure{
     margin-bottom: -50px;
     padding: 8px;
@@ -102,7 +106,28 @@
 
     .title{margin-left: 0;}
 
-    .ap{margin-left: 0;}}
+    .ap{margin-left: 0;}
+
+
+    /* ***** SECTION N°2 ***** */
+    .greybackground{
+    position: relative;
+    top: 800px;
+    width: 100%;}
+
+    .hebergement-container{grid-template-columns: repeat(1, 1fr);}
+
+    .hebergement-container img{
+    width: 27em;
+    height: 10em;}
+
+    .vignettes{
+    position: relative;
+    right: 50px;
+    width: 27em;
+    height: 15em;}
+
+    }
     
     
 

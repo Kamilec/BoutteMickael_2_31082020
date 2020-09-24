@@ -8,17 +8,17 @@
 
     
     /* ***** HEADER ***** */
-     .hebergements{
+    .hebergements{
      position: relative;
      top: 60px;
      left: -120px;}
  
-     .activitesamarseille{
+    .activitesamarseille{
      position: relative;
      top: 60px;
      left: -100px;}
 
-     .inscription{
+    .inscription{
     position: relative;
     left: -180px;}
  
@@ -32,7 +32,7 @@
      border: 1px solid transparent;
      transition: width .5s ease, background-color .5s ease;}
  
-     header li a:hover::after {
+     header li a:hover::after{
      width: 100%;
      background :#0065FC;}
  
@@ -56,13 +56,13 @@
     .loupe{visibility: visible;}
  
     .info{
-     position: relative;
-     top: 20px;}
+    position: relative;
+    top: 20px;}
  
     .para{
-     font-weight: normal;
-     position: relative;
-     top: 20px;}
+    font-weight: normal;
+    position: relative;
+    top: 20px;}
 
     .filtres{
     position: relative;
@@ -72,7 +72,7 @@
 
     .logostitre{flex-direction: column;}
 
-     .firstgroup{
+    .firstgroup{
     position: relative;
     right: 60px;}
 
@@ -84,7 +84,7 @@
 
     .evolution{
     position: relative;
-    left: 150px};}
+    left: 150px;}
 
     .middlerow{
     width: 100%;
@@ -93,10 +93,6 @@
     .popularite img{
     width: 10em;
     height: 10em;}
-
-    .popu_greybackground{
-    position: relative;
-    bottom: 1850px;}
 
     .popularite figure{
     margin-bottom: -50px;
@@ -108,25 +104,6 @@
 
     .ap{margin-left: 0;}
 
-
-
-    /* ***** SECTION N°2 ***** */
-    .greybackground{
-    position: relative;
-    top: 800px;
-    width: 100%;}
-
-    .hebergement-container{grid-template-columns: repeat(1, 1fr);}
-
-    .hebergement-container img{
-    width: 27em;
-    height: 10em;}
-
-    .vignettes{
-    position: relative;
-    right: 50px;
-    width: 27em;
-    height: 15em;}
 
     }
     

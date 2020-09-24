@@ -87,6 +87,8 @@ font-style: normal;}
 
 html{font-family:"ralewaymedium";}
 
+body{padding: 20px;}
+
 span{font-weight: bold;}
 
 li{list-style-type: none;}

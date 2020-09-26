@@ -129,9 +129,14 @@ justify-content: space-between;}
 
 .nav{display: flex;}
 
+.hebergements{margin-right: 100px;}
+
+.inscription{margin-right: 200px;}
+
+.activitesamarseille{margin-right: 100px;}
+
 header span{
 font-weight: normal;
-margin-right: 110px;
 line-height: 50px;}
 
 header span a:before{

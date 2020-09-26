@@ -5,22 +5,19 @@
     padding: 20px;
     width: 450px;}
 
-    .nav{display: initial;}
-
     .hebergements{
+    margin-right: initial;
     position: relative;
-    top: 80px;
-    left: -90px;}
- 
+    top: 45px;
+    right: 130px;}
+    
+    .inscription{margin-right: initial;}
+    
     .activitesamarseille{
+    margin-right: initial;
     position: relative;
-    top: 60px;
-    left: -100px;}
+    top: 45px;}
 
-    .inscription{
-    position: relative;
-    left: -200px;}
- 
     header span a:before{content: none;}
   
     header span a:after{
@@ -155,10 +152,102 @@
     left: 50px;
     display: initial;}
 
-    .apropos{margin-left: 0;}
+    .apropos{margin-left: 0;}}
 
 
+    @media screen and (min-width: 601px) and (max-width: 1024px){
+
+    /* ***** HEADER ***** */
+    body{
+    padding: 20px;
+    width: 1200px;}
+
+    .inscription{margin-right: 5px;}
+    
+
+    /* ***** SECTION N°1 ***** */
+    .fa-star{font-size: initial;}
+
+    .filtreanimal{
+    position: relative;
+    left: 10px;}
+
+
+    /* ***** SECTION N°2 ***** */
+    .middlerow img{
+    height: 15em;
+    width: 19em;}
+
+    .middlerow{display: initial;}
+
+    .title{
+    position: relative;
+    text-align: center;
+    top: 30px;
+    margin-bottom: 50px;}
+
+    .ap{
+    position: relative;
+    bottom: 30px;
+    right: 15px;
+    text-align: center;
+    margin-top: 60px;}
+
+    .vignettes{
+    padding: 0;
+    margin-bottom: 40px;}
+
+    .txtdroite{text-align: center;}
+
+
+    /* ***** ASIDE ***** */
+    .lesplus{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: -8px;}
+
+    .texteadroite{text-align: center;}
+
+    .deplacement{position: initial;}
+    
+    .deplacement2{position: initial;}
+
+    .popularite{flex-direction: row;}
+
+    .popularite figure{
+    position: relative;
+    left: -25px;
+    display: inherit;
+    margin: 20px;
+    width: auto;}
+
+    .popularite img{border-radius: 30px 30px 0 0;}
+
+
+    /* ***** SECTION N°3 ***** */
+    .photosactivites img{
+        height: 10em;
+        width: 15em;
     }
+
+
+ 
+
+
+
+
+
+
+   
+
+    
+
+
+
+
+
+    
     
     
 

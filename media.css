@@ -226,10 +226,35 @@
 
 
     /* ***** SECTION N°3 ***** */
+    .titreactivite{
+    margin-bottom: 10px;
+    text-align: center;}
+
+    .photosactivites {
+    margin-bottom: 80px;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 33% 33% 33%;}
+
     .photosactivites img{
-        height: 10em;
-        width: 15em;
-    }
+    image-rendering: pixelated;
+    height: 15em;
+    width: 23em;}
+
+    .photosactivites figcaption{width: inherit;}
+
+    .notredame{margin-top: -310px;}
+
+    .longchamp{
+    position: relative;
+    margin-top: -310px;
+    left: 810px;}
+
+  
+    /* ***** SECTION N°3 ***** */
+    .remarques{
+    gap: 150px;
+    margin-left: 150px;}}
 
 
  

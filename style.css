@@ -247,8 +247,8 @@ text-indent: 10%;}
 
 .logo2:hover{
 cursor: pointer;
-color: red;
-transform: scale(1.10);
+color: #0065FC;
+transform: scale(1.15);
 transition: 0.3s ease-in-out;}
 
 

@@ -85,9 +85,13 @@ url("font/'raleway-medium-webfont.woff") format('woff');
 font-weight: normal;
 font-style: normal;}
 
-html{font-family:"ralewaymedium";}
+#contener{
+margin:0 auto;
+width:90%;}
 
-body{padding: 20px;}
+body{margin: 0;}
+
+html{font-family:"ralewaymedium";}
 
 span{font-weight: bold;}
 
@@ -127,15 +131,15 @@ justify-content: space-between;}
 
 .nav{display: flex;}
 
-.hebergements{margin-right: 100px;}
+.hebergements{margin-right: 5em;}
 
-.inscription{margin-right: 200px;}
+.inscription{margin-right: 2.5em;}
 
-.activitesamarseille{margin-right: 100px;}
+.activitesamarseille{margin-right: 5em;}
 
 header span{
 font-weight: normal;
-line-height: 50px;}
+line-height: 5em;}
 
 header span a:before{
 content: '';
@@ -252,12 +256,12 @@ transition: 0.3s ease-in-out;}
 
 /* ****************** SECTION N°2 ******************** */
 .title{
-margin-top: 60px;
-margin-left: 50px;}
+margin-top: 2em;
+margin-left: 2em;}
 
 .ap{
-margin-top: 20px;
-margin-left: 50px;}
+margin-top: 2em;
+margin-left: 2em;}
 
 .greybackground{
 padding-left: 10px;
@@ -266,24 +270,27 @@ background-color: #F2F2F2;}
 
 .hebergement-container{
 display: grid;
+max-width: 90%;
+width: 72em;
 grid-template-columns: 33% 33% 33%;
-column-gap: 10px;}
+column-gap: 0.5em;}
 
-figcaption{margin-left: 10px;}
+figcaption{margin-left: 1em;}
 
 .middlerow img{
 image-rendering: pixelated;
 border-radius: 30px 30px 0 0;
-height: 8em;
-width: 17em;}
+height: 9em;
+width: 19em;}
 
 .middlerow{
-margin-top: 50px;
+margin-top: 3em;
 display: flex;
-gap: 40px;}
+gap: 3em;}
 
 .vignettes{
-padding: 4px;
+width: 19em;
+padding: 0.2em;
 line-height: 1.4em;
 background-color: rgb(255, 255, 255);
 box-shadow: 10px 26px 26px -4px rgb(224, 224, 224);
@@ -293,35 +300,38 @@ border-radius: 30px;}
 /* ****************** ASIDE ******************** */
 .evolution{
 position: relative;
-left: 80px;}
+left: 5em;}
 
 .popularite figure{
-padding: 7px;
+padding: 0.3em;
 border-radius: 30px;
-width: 335px;
-margin: -10px;
-display: flex;}
+width: 24em;
+margin: 0;
+display: flex;
+margin-bottom: -3em;}
 
-.popularite a{margin-bottom: 70px;}
+.popularite a{margin-bottom: 6em;}
 
 .popularite{
 display: flex;
-margin-top: 50px;
-align-items: center;
-flex-direction: column;}
+flex-direction: column;
+width: 22em;
+margin-left: -4em;}
 
 .move{
 position: relative;
 top: 45px;}
 
 .lesplus{
-margin-left: -5px;
-margin-top: 60px;}
+position: relative;
+margin-top: 2em;
+right: 2em;
+margin-bottom: 1.2em;}
 
 .popularite img{
 border-radius: 20px 0px 0px 20px;
 image-rendering: pixelated; 
-width: 8em;
+width: 13em;
 height: 8em;}
 
 .popu_greybackground{
@@ -345,66 +355,55 @@ box-shadow: 10px 10px 26px -4px rgb(224, 224, 224);}
 
 
 /* ****************** SECTION N°3 ******************** */
-.titreactivite{
-margin-top: 100px;
-margin-bottom: -10px;}
+.titreactivite{margin-top: 5em;}
 
-.photosactivites img{border-radius: 30px 30px 0 0;}
+.photosactivites img{
+max-width: 100%;
+image-rendering: pixelated;
+border-radius: 30px 30px 0 0;}
 
 .photosactivites figcaption{
 box-shadow: 10px 10px 26px -4px rgb(224, 224, 224);
 border-radius: 0 0 30px 30px ;
-margin-left: -50px;
-width: 400px;
-margin-top: 10px;
-height: 40px;
-text-indent: 1.5em;}
+text-indent: 1.1em;
+line-height: 2em;
+margin-top: -0.2em;
+margin-left: 0;}
 
 .photosactivites{
-margin-bottom: 80px;
+margin-bottom: 5em;
+margin-left: -2.5em;
 display: flex;}
 
 .vieux img{
-margin-left: -50px;
-image-rendering: pixelated;
-height: 450px;
-width: 400px;}
+height: 35em;
+width: 40em;}
 
 .fort img{
-margin-left: -50px;
-image-rendering: pixelated;
-height: 250px;
-width: 400px;}
+height: 24em;
+width: 40em;}
 
 .iles img{
-margin-left: -50px;
-image-rendering: pixelated;
-height: 130px;
-width: 400px;}
+height: 8em;
+width: 30em;}
 
 .parc img{
-margin-left: -50px;
-image-rendering: pixelated;
-height: 450px;
-width: 400px;}
+height: 35em;
+width: 40em;}
 
 .notredame img{
-margin-left: -50px;
-image-rendering: pixelated;
-height: 190px;
-width: 400px;}
+height: 16em;
+width: 40em;}
 
 .longchamp img{
-margin-left: -50px;
-image-rendering: pixelated;
-height: 190px;
-width: 400px;}
+height: 16em;
+width: 40em;}
 
 
 /* ****************** FOOTER ******************** */
 .greybackgroundfooter{
-height: 200px;
-margin-left: -20px;
+margin-left: -6em;
+width: 119em;
 background-color: #F2F2F2;}
 
 footer h3{line-height: 3em;}
@@ -413,11 +412,10 @@ footer p{margin-top: -20px;}
 
 .remarques{
 display: flex;
-gap: 350px;}
+gap: 350px;
+margin-left: 6em;}
 
-.apropos{
-margin-left: 20px;
-line-height: 1.8em;}
+.apropos{line-height: 1.8em;}
 
 .noshebergements{line-height: 1.8em;}
 

@@ -1,22 +1,22 @@
-@media screen and (max-width: 600px){
+@media screen and (min-width: 320px) and (max-width: 480px){
 
     /* ***** HEADER ***** */
-    body{
-    padding: 20px;
-    width: 450px;}
-
     .hebergements{
     margin-right: initial;
     position: relative;
-    top: 45px;
-    right: 130px;}
+    top: 4em;
+    right: 5em;}
     
-    .inscription{margin-right: initial;}
+    .inscription{
+    position: relative;
+    right: 3em;
+    margin-right: initial;}
     
     .activitesamarseille{
     margin-right: initial;
     position: relative;
-    top: 45px;}
+    right: 2em;
+    top: 4em;}
 
     header span a:before{content: none;}
   
@@ -34,7 +34,13 @@
  
  
     /* ***** SECTION N°1 ***** */
-    h1{margin-top: 50px;}
+    h1{margin-top: 3em;}
+
+    .centreville{
+    margin-bottom: 2em;
+    line-height: 1em;}
+
+    .barrederecherche{width: initial;}
 
     .fa-search{
     position: relative;
@@ -47,7 +53,7 @@
     margin-left: -70px;
     visibility: hidden;}
  
-    .map{font-size: 1.3em;}
+    .map{font-size: 1.4em;}
  
     .loupe{visibility: visible;}
  
@@ -62,40 +68,45 @@
 
     .filtres{
     position: relative;
-    top: 10px; 
-    margin-top: 10px;
-    margin-bottom: 25px;}
+    top: 0em;}
 
-    .logostitre{flex-direction: column;}
+    .logostitre{margin-bottom: initial;}
+
+    .filtresList{display: initial;}
+
+    .filtre12{margin-bottom: 1em;}
 
     .firstgroup{
-    position: relative;
-    right: 60px;}
-
-    .filtre12{margin-bottom: 10px;}
+    display: initial;
+    margin-left: 0;}
 
 
     /* ***** ASIDE ***** */
-    .lesplus{margin-left: -70px;}
-
-    .evolution{
-    position: relative;
-    left: 130px;}
-
     .middlerow{flex-direction: column;}
-        
-    .popularite img{
-    width: 10em;
-    height: 10em;}
 
     .popu_greybackground{
     position: relative;
-    bottom: 1950px;}
+    border-radius: initial;
+    bottom: 119em;
+    width: 8em;
+    right: 1em;}
 
-    .popularite figure{
-    margin-bottom: -50px;
-    padding: 8px;
-    width: 25em;
+    .lesplus{
+    right: 3em;
+    margin-bottom: 0em;}
+
+    .evolution{
+    bottom: 2em;
+    left: 11em;}
+
+    .popularite a{
+    margin-left: -1em;
+    margin-bottom: 4em;}
+
+    .popularite figure{width: 18em;}
+        
+    .popularite img{
+    width: 7em;
     height: 10em;}
 
     .move{
@@ -103,54 +114,61 @@
     top: 70px;}
   
 
-    
     /* ***** SECTION N°2 ***** */
-    .title{margin-left: 5px;}
-
-    .ap{margin-left: 5px;}
-
     .greybackground{
-    margin-bottom: 120px;
-    position: relative;
     background-color: initial;
-    top: 720px;}
+    position: relative;
+    bottom: -42em;}
+
+    .title{
+    position: relative;
+    left: 1.1em;
+    top: 1em;
+    margin-left: -1em;}
+
+    a{margin-left: -1em;}
+
+    .hebergement-container a{margin-left: -1em;}
 
     .hebergement-container{grid-template-columns: repeat(1, 1fr);}
 
+    .ap{
+    margin-top: 1em;
+    margin-bottom: 5em;
+    margin-left: -0.4em;}
+
     .hebergement-container img{
-    width: 27em;
+    width: 19em;
     height: 10em;}
 
-    .vignettes{
-    position: relative;
-    right: 40px;}
+    .vignettes{ 
+    margin-left: -0.4em;
+    width: 19em;}
 
 
     /* ***** SECTION N°3 ***** */
-    .titreactivite{
-    position: relative;
-    left: 25px;
-    margin-bottom: 10px;
-    margin-top: -100px;}
+    .titreactivite{margin-top: -4em;}
 
     .photosactivites{
     position: relative;
-    left: 25px;
-    flex-direction: column;}
+    display: initial;
+    left: -3em;
+    top: -2em;}
 
     .photosactivites img{
-    width: 27em;
-    height: 10em;}
+    width: 19em;
+    height: 10em;
+    max-width: initial;}
 
     .photosactivites figcaption{
-    width: 27em;
+    width: 19em;
     height: 3em;}
 
 
     /* ***** FOOTER ***** */
     .greybackgroundfooter{
-    margin-top: -40px;
-    height: 450px;}
+    margin-left: -3em;
+    width: 22em;}
 
     .remarques{
     position: relative;
@@ -160,7 +178,7 @@
     .apropos{margin-left: 0;}}
 
 
-    @media screen and (min-width: 601px) and (max-width: 1200px){
+    @media screen and (min-width: 481px) and (max-width: 1024px){
 
     /* ***** HEADER ***** */
     body{

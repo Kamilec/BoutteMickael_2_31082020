@@ -1,312 +1,88 @@
-@media screen and (min-width: 320px) and (max-width: 480px){
+/* ********** 600PX ********** */
+@media screen and (min-width: 600px)
+{.header{
+grid-template-columns: auto 1fr auto auto;
+grid-template-areas: "logo . navbar button";}}
 
-    /* ***** HEADER ***** */
-    .hebergements{
-    margin-right: initial;
-    position: relative;
-    top: 4em;
-    right: 5em;}
+@media screen and (max-width: 600px)
+{.header{
+grid-template-columns: auto 1fr auto;
+grid-template-areas:"logo . button" "navbar navbar navbar";}}
+
+
+/* ********** 650PX ********** */
+@media (max-width: 650px)
+{.hostingMain{grid-template-columns: 1fr;}}
+
+@media (max-width: 650px)
+{.activity{
+row-gap: 2rem;
+grid-template-columns: 1fr;
+grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;}}
+
+
+/* ********** 925PX ********** */
+@media (min-width: 925px){
+.hostingmain{grid-template-columns: repeat(3, 1fr);}}
+
+@media (min-width: 925px)
+{.activity{
+row-gap: 2rem;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: auto 12rem 12rem 12rem;}}
+
+
+/* ********** 1000PX ********** */
+@media (max-width: 1000px){.hostingfavorite{grid-template-columns: 1fr;}}
+
+
+/* ********** 1100PX ********** */
+@media (min-width: 1100px){
+.activity{
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;}}
     
-    .inscription{
-    position: relative;
-    right: 3em;
-    margin-right: initial;}
-    
-    .activitesamarseille{
-    margin-right: initial;
-    position: relative;
-    right: 2em;
-    top: 4em;}
-
-    header span a:before{content: none;}
-  
-    header span a:after{
-    content: '';
-    display: block;
-    height: 1px;
-    width: 0;
-    border: 1px solid transparent;
-    transition: width .5s ease, background-color .5s ease;}
- 
-    header span a:hover::after{
-    width: 100%;
-    background :#0065FC;}
- 
- 
-    /* ***** SECTION N°1 ***** */
-    h1{margin-top: 3em;}
-
-    .centreville{
-    margin-bottom: 2em;
-    line-height: 1em;}
-
-    .barrederecherche{width: initial;}
-
-    .fa-search{
-    position: relative;
-    right: 15px;
-    font-size: 1.2em;}
-    
-    .rechercher{border-radius: 15px 15px 15px 15px;}
- 
-    .boutonch{
-    margin-left: -70px;
-    visibility: hidden;}
- 
-    .map{font-size: 1.4em;}
- 
-    .loupe{visibility: visible;}
- 
-    .info{
-    position: relative;
-    top: 20px;}
- 
-    .para{
-    font-weight: normal;
-    position: relative;
-    top: 20px;}
-
-    .filtres{
-    position: relative;
-    top: 0em;}
-
-    .logostitre{margin-bottom: initial;}
-
-    .filtresList{display: initial;}
-
-    .filtre12{margin-bottom: 1em;}
-
-    .firstgroup{
-    display: initial;
-    margin-left: 0;}
-
-
-    /* ***** ASIDE ***** */
-    .middlerow{flex-direction: column;}
-
-    .popu_greybackground{
-    position: relative;
-    border-radius: initial;
-    bottom: 119em;
-    width: 8em;
-    right: 1em;}
-
-    .lesplus{
-    right: 3em;
-    margin-bottom: 0em;}
-
-    .evolution{
-    bottom: 2em;
-    left: 11em;}
-
-    .popularite a{
-    margin-left: -1em;
-    margin-bottom: 4em;}
-
-    .popularite figure{width: 18em;}
+@media (min-width: 1100px){
+.activitycard1{
+grid-row: 2/7;
+grid-column: 1/2;}}
         
-    .popularite img{
-    width: 7em;
-    height: 10em;}
+@media (min-width: 1100px){
+.activitycard2{
+grid-column: 2/3;
+grid-row: 2/5;}}
+           
+@media (min-width: 1100px){
+.activitycard3{
+grid-column: 2/3;
+grid-row: 6/7;}}
+        
+@media (min-width: 1100px){
+.activitycard4{
+grid-column: 3/4;
+grid-row: 2/7;}}
+        
+@media (min-width: 1100px){
+.activitycard5{
+grid-column: 4/4;
+grid-row: 2/5;}}
+        
+@media (min-width: 1100px){
+.activitycard6{
+grid-column: 4/4;
+grid-row: 6/7;}}
+
+
+/* ********** 1440PX ********** */
+@media (max-width: 1440px){.hostingfavoritetitle{grid-column: 1/-1;}}
+
+@media screen and (max-width: 1440px)
+{.hosting{
+grid-template-columns: 1fr;
+row-gap: 2rem;}}
+
+@media (max-width: 1440px)
+{.hostingfavorite{
+grid-template-columns: repeat(3, 1fr);
+column-gap: 2rem;}}
 
-    .move{
-    position: relative;
-    top: 70px;}
-  
-
-    /* ***** SECTION N°2 ***** */
-    .greybackground{
-    background-color: initial;
-    position: relative;
-    bottom: -42em;}
-
-    .title{
-    position: relative;
-    left: 1.1em;
-    top: 1em;
-    margin-left: -1em;}
-
-    a{margin-left: -1em;}
-
-    .hebergement-container a{margin-left: -1em;}
-
-    .hebergement-container{grid-template-columns: repeat(1, 1fr);}
-
-    .ap{
-    margin-top: 1em;
-    margin-bottom: 5em;
-    margin-left: -0.4em;}
-
-    .hebergement-container img{
-    width: 19em;
-    height: 10em;}
-
-    .vignettes{ 
-    margin-left: -0.4em;
-    width: 19em;}
-
-
-    /* ***** SECTION N°3 ***** */
-    .titreactivite{margin-top: -4em;}
-
-    .photosactivites{
-    position: relative;
-    display: initial;
-    left: -3em;
-    top: -2em;}
-
-    .photosactivites img{
-    width: 19em;
-    height: 10em;
-    max-width: initial;}
-
-    .photosactivites figcaption{
-    width: 19em;
-    height: 3em;}
-
-
-    /* ***** FOOTER ***** */
-    .greybackgroundfooter{
-    margin-left: -3em;
-    width: 22em;}
-
-    .remarques{
-    position: relative;
-    left: 50px;
-    display: initial;}
-
-    .apropos{margin-left: 0;}}
-
-
-    @media screen and (min-width: 481px) and (max-width: 1024px){
-
-    /* ***** HEADER ***** */
-    body{
-    padding: 20px;
-    width: 1200px;}
-
-    .inscription{margin-right: 5px;}
-    
-
-    /* ***** SECTION N°1 ***** */
-    .fa-star{font-size: initial;}
-
-    .filtreanimal{
-    position: relative;
-    left: 10px;}
-
-
-    /* ***** SECTION N°2 ***** */
-    .middlerow img{
-    height: 15em;
-    width: 19em;}
-
-    .middlerow{display: initial;}
-
-    .title{
-    position: relative;
-    text-align: center;
-    top: 30px;
-    margin-bottom: 50px;}
-
-    .ap{
-    position: relative;
-    bottom: 30px;
-    right: 15px;
-    text-align: center;
-    margin-top: 60px;}
-
-    .vignettes{
-    padding: 0;
-    margin-bottom: 40px;}
-
-    .txtdroite{text-align: center;}
-
-
-    /* ***** ASIDE ***** */
-    .lesplus{
-    text-align: center;
-    position: relative;
-    top: 30px;
-    left: -8px;}
-
-    .texteadroite{text-align: center;}
-
-    .deplacement{position: initial;}
-    
-    .deplacement2{position: initial;}
-
-    .popularite{flex-direction: row;}
-
-    .popularite figure{
-    position: relative;
-    left: -25px;
-    display: inherit;
-    margin: 20px;
-    width: auto;}
-
-    .move{
-    position: relative;
-    top: 5px;}
-            
-    .move2{
-    position: relative;
-    top: 5px;}
-
-    .popularite img{border-radius: 30px 30px 0 0;}
-
-
-    /* ***** SECTION N°3 ***** */
-    .titreactivite{
-    margin-bottom: 10px;
-    text-align: center;}
-
-    .photosactivites {
-    margin-bottom: 80px;
-    display: grid;
-    column-gap: 10px;
-    grid-template-columns: 33% 33% 33%;}
-
-    .photosactivites img{
-    image-rendering: pixelated;
-    height: 15em;
-    width: 23em;}
-
-    .photosactivites figcaption{width: inherit;}
-
-    .notredame{margin-top: -310px;}
-
-    .longchamp{
-    position: relative;
-    margin-top: -310px;
-    left: 810px;}
-
-  
-    /* ***** SECTION N°3 ***** */
-    .remarques{
-    gap: 150px;
-    margin-left: 150px;}}
-
-
- 
-
-
-
-
-
-
-   
-
-    
-
-
-
-
-
-    
-    
-    
-
-
-
-     

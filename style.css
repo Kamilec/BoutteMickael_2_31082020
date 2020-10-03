@@ -311,7 +311,8 @@ padding: 2rem}
 .hostingfavorite{
 display: grid;
 row-gap: 2rem;
-align-items: start;}
+align-items: start;
+grid-template-rows: auto repeat(3, 1fr)}
 
 .hostingfavoritetitle{
 margin: 0;
@@ -324,24 +325,35 @@ padding: .375rem;
 border-radius: 1.25rem;
 box-shadow: 0 0 16px #0000002e;
 transition-duration: .1s;
-cursor: pointer;}
+cursor: pointer;
+height: 100%;
+box-sizing: border-box;}
 
 .hostingfavoritecard:hover{transform: scale(1.1);}
 
 .hostingfavoritecontent{
 display: flex;
-align-items: stretch;}
+align-items: stretch;
+height: 100%;
+overflow: auto;}
+
+.hostingfavoritewrapimg{
+position: relative;
+min-height: 100%;
+width: 33%;
+min-width: 33%;
+max-width: 33%;}
+
+.hostingfavoriteimg{
+border-radius: 1rem 0 0 1rem;
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;}
 
 .hostingfavoritewrapcontent{
 display: flex;
 flex-direction: column;}
-
-.hostingfavoriteimg{
-width: 33%;
-min-height: 8rem;
-height: auto;
-object-fit: cover;
-border-radius: 1rem 0 0 1rem;}
 
 .hostinfavoritewarapcontent{
 display: flex;
@@ -386,7 +398,7 @@ transition-duration: .1s;
 cursor: pointer;}
 
 
-/* ****************** ACTIVITY ******************** */
+/* ****************** FOOTER ******************** */
 .footer{
 background-color: #f2f2f2;
 width: 100%;}

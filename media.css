@@ -1,15 +1,16 @@
 @media screen and (min-width: 600px){
 .header {
 grid-template-columns: auto 1fr auto;
-grid-template-areas:"logo . navbar button";;}}
+grid-template-areas:"logo . navbar button";}}
 
 @media screen and (max-width: 600px){
 .header {
+margin-left: -1rem;
 grid-template-columns: auto 1fr auto;
 grid-template-areas:
 "logo . button"
  "navbar navbar navbar";}}
-    
+
 @media screen and (max-width: 600px){
 .headernav a:hover{
 color: #0065FC;
@@ -22,18 +23,29 @@ border-top: hidden;
 border-bottom: 2px solid #0065FC;}}
 
 @media screen and (max-width: 600px){
-.searchfiltertitles{margin-right: 3rem;}}
+.headernav {order: 2;}}
 
 @media screen and (max-width: 600px){
-.headernav {order: 2;}}
+.hostingtitle{font-size: 1.4rem;}}
 
 @media screen and (max-width: 600px){
 .headerSignup {order: 1;}}
 
 @media screen and (max-width: 600px){
+.searchfiltergroup1{font-size: 0.8rem;}
+.searchfiltersfilter{margin-right: 0.2rem;}
+.searchfiltericons{min-width: 0;}
+.searchfiltergroup2{display: initial;}
 .searchbar{width: 8rem;}
 .searchicon{visibility: visible;}
 .searchsubmit{display: none;}}
+
+@media (max-width:1440px){
+.main{padding: 0}
+
+.search{margin-left: 1rem;}
+
+.header{margin-left: -1rem;}}
 
 @media (min-width: 1100px){
 .activity {
@@ -73,6 +85,8 @@ grid-template-rows: auto 12rem 12rem;}}
 
 @media (max-width: 1440px){
 .hosting {
+display: flex;
+flex-direction: column-reverse;
 grid-template-columns: 1fr;
 row-gap: 2rem;}}
 
@@ -85,13 +99,25 @@ grid-template-columns: repeat(3, 1fr);}}
 grid-template-columns: 1fr 1fr;}}
 
 @media (max-width: 650px){
-.hostingmain {grid-template-columns: 1fr;}}
+.hostingmain {
+padding: 1rem;
+grid-template-columns: 1fr;}}
 
 @media (max-width: 1440px){
 .hostingfavorite {
+border-radius: initial;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: auto 10rem;
-column-gap: 2rem;}}
+padding: 1rem;
+column-gap: 2rem;}
+
+.hostingmain { 
+background-color: initial;
+padding: 1rem;}
+
+.activity {padding: 1rem}}
+
+
 
 @media (max-width: 1000px){
 .hostingfavorite{
@@ -106,6 +132,9 @@ grid-template-rows: auto repeat(3, 9rem);}}
 row-gap: 2rem;
 grid-template-columns: 1fr;
 grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;}}
+
+@media (max-width: 650px){
+.activitytitle {padding-bottom: 0rem;}}
 
 @media (max-width: 750px){
 .footercolumn {
